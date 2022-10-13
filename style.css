@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+header {
+    color: #ffffff;
+    padding: 4px;
+    text-align: center;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: purple;
+    font-size: 1.4em;
+}
+
+p {
+    margin: 0;
+    color: #ffa500;
+    font-weight: bold;
+}
+
+main {
+    box-shadow: 3px 0px 15px #00000083;
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: block;
+    text-align: center;
+    margin: auto;
+    min-height: 450px;
+    padding: 20px;
+    max-width: 650px;
+}
+
+.numero {
+    font-size: 0.8em;
+    width: 100px;
+    padding-left: 10px;
+}
+
+.adicionar {
+    height: 28px;
+}
+select {
+    border-radius: 5px;
+    font-size: 0.8em;
+    padding: 8px;
+    width: 300px;
+}
+
+footer {
+    color: #ffffff;
+    padding-top: 15px;
+    text-align: center;
+}
