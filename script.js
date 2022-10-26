@@ -15,11 +15,11 @@ clique.addEventListener('click', () => {
         alert('Número Inválido!');
     } else if (verificarNaLista(numero, valores)) {
         // verifica se a função retorna TRUE
-        alert('Número repetido');
+        alert('Número repetido!');
     } else {
         valores.push(numero); // método para adicionar um elemento ao array, NB: Verificar sempre o tipo
         const item = document.createElement('option');
-        item.text = ` O Valor ${numero} adicionado`;
+        item.text = ` O Valor ${numero} adicionado!`;
         lista.appendChild(item);
     }
     numInput.value = '';
